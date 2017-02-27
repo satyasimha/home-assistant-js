@@ -11,7 +11,7 @@ import { activePanelName } from './getters';
 import { navigate } from './actions';
 
 const IS_SUPPORTED = history.pushState && !__DEMO__;
-const PAGE_TITLE = 'Home Assistant';
+const PAGE_TITLE = 'Sphynx Home Automation';
 const SYNCS = {};
 
 function getSync(reactor) {
